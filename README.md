@@ -3,6 +3,16 @@ pretty-json
 
 JSON formatter &amp;&amp; highlighter in one line!
 
+## Screenshots
+
+### Before:
+
+![before](screenshot-before.png)
+
+### After:
+
+![after](screenshot-after.png)
+
 ## Installation
 
 Tested only on OS X.
