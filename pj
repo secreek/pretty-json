@@ -1,1 +1,1 @@
-ruby -r 'json' -e 'puts JSON.pretty_generate(JSON.parse(ARGF.read))' | perl -pe 's/\"(\w+)\":/\"\e[1;36m$1\e[0m\"\:/;s/\"([^"]+)\"(,*)$/\"\e[0;32m$1\e[0m\"$2/;s/(\d+)(,*)$/\e[0;35m$1\e[0m$2/;s/(null|true|false)(,*)$/\e[1;31m$1\e[0m$2/'
+ruby -r 'json' -e 'puts JSON.pretty_generate(JSON.parse(ARGF.read.chomp))' | perl -pe 's/\"(\w+)\":/\"\e[1;36m$1\e[0m\"\:/;s/\"([^"]+)\"(,*)$/\"\e[0;32m$1\e[0m\"$2/;s/(\d+)(,*)$/\e[0;35m$1\e[0m$2/;s/(null|true|false)(,*)$/\e[1;31m$1\e[0m$2/'
