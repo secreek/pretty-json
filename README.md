@@ -1,7 +1,7 @@
 pretty-json
 ===========
 
-JSON formatter &amp;&amp; highlighter in one line!
+This tiny program reads any JSON code from STDIN and output a well-formatted and colorized version.
 
 ## Screenshots
 
