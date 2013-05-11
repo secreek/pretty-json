@@ -41,5 +41,5 @@ $ curl -s http://www.seismi.org/api/eqs?limit=20 | pj
 An even complex sample:
 
 ```sh
-curl -s https://api.github.com/events | pj
+$ curl -s https://api.github.com/events | pj
 ```
