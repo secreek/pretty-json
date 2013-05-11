@@ -8,8 +8,7 @@ JSON formatter &amp;&amp; highlighter in one line!
 Tested only on OS X.
 
 ```sh
-$ sudo curl -s https://raw.github.com/secreek/pretty-json/master/pj \
->> /usr/local/bin/pj \
+$ sudo curl -s https://raw.github.com/secreek/pretty-json/master/pj >/usr/local/bin/pj \
 && sudo chmod +x /usr/local/bin/pj
 ```
 
